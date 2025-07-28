@@ -1,0 +1,35 @@
+<div class="container mt-4">
+  <h1 class="text-center mb-4">Communes par province</h1>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs justify-content-center mb-4" role="tablist">
+    <li class="nav-item" *ngFor="let province of getProvinces()">
+      <button
+        class="nav-link"
+        [class.active]="province === selectedProvince"
+        (click)="selectProvince(province)"
+      >
+        {{ province }} ({{ communesByProvince[province].length }})
+      </button>
+    </li>
+  </ul>
+
+  <!-- Communes list -->
+  <div class="row">
+    <div
+      *ngFor="let commune of getCommunesForSelected()"
+      class="col-md-6 col-lg-4 mb-4"
+    >
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title text-primary">{{ commune.Nom }}</h5>
+          <ul class="list-unstyled">
+            <li><strong>Population:</strong> {{ commune.Population }}</li>
+            <li><strong>Superficie:</strong> {{ commune.Superficie }} km²</li>
+            <li><strong>Code Postal:</strong> {{ commune.CodePostal }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
