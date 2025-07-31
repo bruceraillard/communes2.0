@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ad409db-d654-472e-a32d-cc92ab644e12" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/communes/communes.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/models/commune.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/communes/communes.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/communes/communes.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/communes/communes.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/services/commune.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/commune.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/communes.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/communes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/19.2.0/communesAngular/.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/19.2.0/communesAngular/.tsbuildinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/par-densite/par-densite.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/par-densite/par-densite.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/par-densite/par-densite.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/par-densite/par-densite.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/par-population/par-population.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/par-population/par-population.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/par-province/par-province.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/par-province/par-province.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +49,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -109,6 +106,9 @@
       <workItem from="1742264055464" duration="317000" />
       <workItem from="1753045051403" duration="654000" />
       <workItem from="1753658115363" duration="6764000" />
+      <workItem from="1753736770539" duration="148000" />
+      <workItem from="1753843551599" duration="2189000" />
+      <workItem from="1753928469339" duration="4592000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,22 @@
 <div class="container mt-4">
-  <h1 class="text-center mb-4">Classement par densité de population</h1>
+  <h1 class="text-center mb-4">Communes par densité de population</h1>
 
+  <!-- Onglets -->
+  <ul class="nav nav-tabs justify-content-center mb-4">
+    <li class="nav-item" *ngFor="let r of ranges">
+      <button class="nav-link"
+              [class.active]="selectedRange === r"
+              (click)="selectRange(r)">
+        {{ r === '-10' ? '< 10' : r === '10-100' ? '10 à 100' : '> 100' }} hab/km²
+        <span class="badge bg-primary ms-2">
+        {{ getCountForRange(r) }}
+      </span>
+      </button>
+    </li>
+  </ul>
+
+
+  <!-- Tableau -->
   <div class="table-responsive shadow-sm rounded">
     <table class="table table-striped table-hover">
       <thead class="table-primary">
@@ -13,7 +29,7 @@
       </tr>
       </thead>
       <tbody>
-      <tr *ngFor="let commune of communes; let i = index">
+      <tr *ngFor="let commune of filteredCommunes; let i = index">
         <td>{{ i + 1 }}</td>
         <td><strong>{{ commune.Nom }}</strong></td>
         <td>{{ commune.Population }}</td>

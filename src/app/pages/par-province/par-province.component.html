@@ -9,7 +9,7 @@
         [class.active]="province === selectedProvince"
         (click)="selectProvince(province)"
       >
-        {{ province }} ({{ communesByProvince[province].length }})
+        {{ province }} <span class="badge bg-primary ms-2">{{ communesByProvince[province].length }}</span>
       </button>
     </li>
   </ul>

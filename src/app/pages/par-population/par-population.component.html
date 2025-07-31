@@ -9,7 +9,7 @@
         [class.active]="selectedGroup === group"
         (click)="selectGroup(group)"
       >
-        {{ group }} ({{ groupedByPopulation[group]?.length || 0 }})
+        {{ group }} <span class="badge bg-primary ms-2"> {{ groupedByPopulation[group]?.length || 0 }}</span>
       </button>
     </li>
   </ul>
